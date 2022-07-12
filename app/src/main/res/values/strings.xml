@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ActivitewsAndLists</string>
+    <string name="item_text_view">TextView</string>
+</resources>
