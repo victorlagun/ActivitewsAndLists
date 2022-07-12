@@ -4,16 +4,13 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.RecyclerView
 import com.example.activitewsandlists.adapter.DaysOfWeekAdapter
+import com.example.activitewsandlists.model.ItemModel
 
 class MainActivity : AppCompatActivity() {
-    val data = listOf(
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday",
-        "Sunday"
+    private val data = listOf(
+        ItemModel("Monday", false),
+        ItemModel("Tuesday", true),
+        ItemModel("Wednesday", false),
     )
 
     override fun onCreate(savedInstanceState: Bundle?) {
